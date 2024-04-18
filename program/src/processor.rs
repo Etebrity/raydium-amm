@@ -246,7 +246,7 @@ impl Processor {
         }
     }
 
-    fn get_amm_orders(
+    pub fn get_amm_orders(
         open_orders: &OpenOrders,
         bids: RefMut<Slab>,
         asks: RefMut<Slab>,
